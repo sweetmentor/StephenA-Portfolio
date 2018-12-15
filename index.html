@@ -10,6 +10,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+       (function() {
+          emailjs.init("user_2j385GWnU4Y93dF31jX8q");
+       }) ();
+    </script>
     <title>STEPHEN AFOLABI PORTFOLIO</title>
 </head>
 
@@ -28,11 +34,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class='page-scroll' href="#home">Home</a></li>
-                        <li><a class='page-scroll' href="#about">About</a></li>
-                        <li><a class='page-scroll' href="#porfolio">Portfolio</a></li>
-
-                        <li><a class='page-scroll' href="#contact">Contact</a></li>
+                        <li><a class="scroll-anchor" href="#home">Home</a></li>
+                        <li><a class="scroll-anchor" href="#about">About</a></li>
+                        <li><a class="scroll-anchor" href="#portfolio">Portfolio</a></li>
+                        <li><a class="scroll-anchor" href="#contact">Contact</a></li>
 
                     </ul>
                 </div>
@@ -41,22 +46,29 @@
         <div class="container_top">
             <h1 class='name'>Stephen Afolabi</h1>
             <p class='title'>Full-Stack Software Developer</p>
+  
         </div>
-
+    <div id="container-scrollh">
+                <div>
+                    <a href="#about" id="home" class="scrollh">Click to scroll down</a>
+                </div>
+        </div>
     </header>
 
-    <!----------------About area-->
-    <section id="about">
-        <div class="col-md-8 jumbotron">
-            <div>
-                <h1>ABOUT</h1><br/>
-                <p>A disciplined, and highly motivated software developer who has development experience on numerous projects. I possess a good understanding of technology trends and developments and an expert at applying myself in programming skills to
-                        solve complex challenges.</p> <br/>
-                <p>On a personal level, I have the strong listening skills needed to acquire and comprehend user requirements and more than competent on independently working on most phases of development activities.
-                </p><br/>
-                <p>I am a recent graduate of Code Institute, Dublin with working knowledge of some of the recent technologies as listed below.</p>
-            </div>
-            <br>
+        <!--*********About area*****************-->
+    <section >
+        <div id="about">
+            <div class="row">
+                <div class="col-xs-8 col-md-8 jumbotron">
+                    <div>
+                        <h1>ABOUT</h1><br/>
+                        <p>A disciplined, and highly motivated software developer who has development experience on numerous projects. I possess a good understanding of technology trends and developments and an expert at applying myself in programming skills to
+                                solve complex challenges.</p> <br/>
+                        <p>On a personal level, I have the strong listening skills needed to acquire and comprehend user requirements and more than competent on independently working on most phases of development activities.
+                        </p><br/>
+                        <p>I am a recent graduate of Code Institute, Dublin with working knowledge of some of the recent technologies as listed below.</p>
+                    </div>
+                    <br>
                 <div class="row">
                     <div><h3>My Skills:</h3></div>
                     <div class="col-xs-4 col-sm-4">
@@ -91,21 +103,98 @@
                      
                         
                 </div>
-                <br/>
+                
                 <div>
                 <h3 class="uppercase general-sub">Download My CV</h3>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
                     <a href="assets/cv/stephen.doc" target="_blank" class="cv-doc"><i class="fa fa-download" aria-hidden="true"></i></a>
                 </p>
-            </div>   
-        </div>
-        <div id="about-me" class="col-md-4"></div>
+               <br>
+               <br>
+                    <a href="#portfolio" id="about" class="scroll-anchor">Click to scroll down</a>
+            </div>
+            
+            </div>
+        
+        <div class="about-me col-xs-8 col-md-4"></div>
+           </div>
+           
+       </div>
     </section>
 
-<!--------portfolio area--------->
+<!--****************portfolio area**************-->
+
+<section id="portfolio">
+    <div class="container port-details">
+    <h1 class="port_title">PORTFOLIO</h1>
+    
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
@@ -121,14 +210,85 @@
 </div>
 
 
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="https://chestergreen-ecommerce-app.herokuapp.com" class="link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+    <a href="https://github.com/sweetmentor/Str4-eCommerce-App" class="link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+      <div class="caption">
+        <h3>Chestergreen Store</h3>
+        <h4>Django, Python, AWS, Heroku</h4>
+        <p>This is a e-commerce site for Chestergreen Appliances where customers shop online.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="container">
+                <div>
+                    <a href="#contact" id="portfolio" class="scroll-anchor">Click to scroll down</a>
+                </div>
+        </div>
+
+</section>
+
+<section class="jumbotron" id="contact">
+        <div class="container">
+            <div class="col-sm-6"></div>
+            <div class="col-xs-12 col-sm-6 contact-form">
+                <h1 id="contact-head">Contact Me</h1>
+                <form id="contactForm" onsubmit="return sendMail(this);">
+                    <div class="row contact">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="Name" placeholder="Name" required>
+                        </div>
+                    </div>
+                    <div class="row contact">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your_email" required>
+                        </div>
+                    </div>
+                    <div class="row contact">
+                        <div class="form-group message">
+                            <textarea class="form-control" id="message" name="message" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value='Send' class="btn btn-default">
+                </form>
+            </div>
+        </div>
+    </section>
 
 
 
 
-
-
-
-
+    
+    <script src="assets/js/main.js"></script>
 </body>
-
+    <script src="assets/js/sendEmail.js"></script>
 </html>
