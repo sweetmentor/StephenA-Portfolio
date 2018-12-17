@@ -4,7 +4,10 @@ body {
 }
 
 /*----------NAVBAR---------*/
-
+li {
+    letter-spacing: 1px;
+    text-align: right;
+}
 .navbar {
     background: none;
     border-color: transparent;
@@ -54,20 +57,29 @@ body {
     /*color: #fff;*/
     padding-left: 35px;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
 }
-/*#about-me {*/
-/*    width: 100vw;*/
-/*}*/
+#about {
+    background-color: #fdfdfd;
+}
 
 .about-me {
     background-image: url('../images/smpic.jpg');
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 20px;
-    height: 100vh;
+    min-height: 700px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
+@media (min-width: 768px){
+    .container {
+    width: 1200px;
+    }
+}
 
 .jumbotron {
     margin-bottom: 0px;
@@ -115,8 +127,9 @@ body {
 }
 
 .port_title {
-    margin-top: 7%;
-    margin-bottom: 5%;
+    padding-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .scroll-anchor {
