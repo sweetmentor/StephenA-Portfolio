@@ -1,7 +1,7 @@
 function sendMail(contactForm) {
     var service_id = "default_service";
-    var template_id = "heritage";
-    emailjs.send("gmail", "heritage", {
+    var template_id = "smresume";
+    emailjs.send("gmail", "smresume", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
         "message": contactForm.message.value,

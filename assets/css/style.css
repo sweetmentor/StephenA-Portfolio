@@ -55,13 +55,15 @@ li {
 
 .container {
     /*color: #fff;*/
-    padding-left: 35px;
+    padding-left: 45px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
 }
 #about {
     background-color: #fdfdfd;
+    width: 1643px;
+    /*height: 1000px;*/
 }
 
 .about-me {
@@ -75,10 +77,71 @@ li {
     -webkit-transition: all .5s ease-in-out;
 }
 
-@media (min-width: 768px){
+.aboutside {
+    height: 800px;
+    width: 1460px;
+}
+
+/*a#about.scroll-anchor {*/
+/*    height: 70px;*/
+    
+/*}*/
+
+@media screen and (max-width: 768px) {
     .container {
-    width: 1200px;
+        width: 375px;
     }
+    .container>.navbar-collapse {
+        width: 900px;
+    }
+    .navbar-header{
+        width: 340px;
+    }
+    .navbar-fixed-top{
+        width: 375px;
+    }
+    .navbar {
+        width: 375px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p.title {
+        font-size: 16px;
+    }
+    ul.nav.navbar.navbar-right {
+        width: 200px;
+        padding-left: 210px;
+    }
+    a.scroll-anchor {
+        height: 50px;
+        width: 180px;
+        padding: none;
+        text-align: right
+    }
+    .navbar-nav li a {
+        padding: 0px;
+    }
+    #main-navbar {
+        width: 430px;
+        padding-left: 170px;
+        padding-right: 35px;
+    }
+    .container_top {
+        padding-left: 3px;
+    }
+    .about-me {
+        margin-top: 20%;
+        min-height: 250px;
+    }
+    #about {
+        width: 370px;
+        padding-top: 0px;
+    }
+    .aboutside {
+        width: 375px;
+    }
+    
 }
 
 .jumbotron {
@@ -97,6 +160,10 @@ li {
     line-height: 18px;
 }
 
+.download {
+    height: 60px;
+}
+
 .github-icon {
     padding: 20px 0;
     border-radius: 50%;
@@ -104,6 +171,10 @@ li {
     width: 54px;
     height: 54px;
     line-height: 14px;
+}
+
+h1 {
+    margin-top: 8%;
 }
 
 #portfolio {
@@ -128,7 +199,6 @@ li {
 
 .port_title {
     padding-left: 15%;
-    margin-top: 5%;
     margin-bottom: 2%;
 }
 
@@ -138,9 +208,15 @@ li {
   font-family: sans-serif;
   text-align: center;
   text-decoration: none;
-  padding-bottom: 20px;
+  /*padding-top: 95px;*/
   display: block;
+  height: 70px;
   
+}
+
+.aboutanchor {
+    padding-top: 95px;
+    
 }
 
 .scrollh {
@@ -168,4 +244,8 @@ li {
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
+}
+
+#about h1 {
+    
 }
