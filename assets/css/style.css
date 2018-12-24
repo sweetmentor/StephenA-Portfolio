@@ -79,6 +79,10 @@ nav {
         background-position: bottom;
         background-size: cover;
         width: 100vw;
+        height: 100vh;
+        }
+        .form-control {
+            width: 50%;
         }
     }
 
@@ -131,6 +135,7 @@ nav {
     }
     section#portfolio {
         width: 100vw;
+        /*height: 100vh;*/
     }
     .form-control {
         width: 70vw;
@@ -378,6 +383,3 @@ h1 {
 }
 }
 
-/*.col-xs-8 {*/
-/*    width: 85.66666667%;*/
-/*}*/
