@@ -16,8 +16,6 @@ body {
         text-transform: uppercase;
     }
     
-    
-    
     .navbar .navbar-collapse {
         text-align: right;
         border-top: 1px solid transparent;
@@ -41,8 +39,6 @@ body {
         /*padding-right: 35px;*/
     }
    
-    
-
 }
 
 nav {
@@ -59,13 +55,11 @@ nav {
     margin-bottom: 0px;
     z-index: 1;
 }
- .container {
+.container {
     width: 100vw;
  /*   color: #fff;*/
     padding-left: 45px;
- /*   margin-left: auto;*/
- /*   margin-right: auto;*/
- /*   margin-top: 5%;*/
+ 
     }
 
 .container_top {
@@ -77,18 +71,7 @@ nav {
     
 }
 
-/*.container {*/
-    /*color: #fff;*/
-    /*padding-left: 45px;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*    margin-top: 5%;*/
-/*}*/
-/*#about {*/
-/*    background-color: #fdfdfd;*/
-/*    width: 1643px;*/
-    /*height: 1000px;*/
-/*}*/
+
 
 @media (min-width: 768px) and (max-width: 5000px) {
     #about {
@@ -96,77 +79,79 @@ nav {
         background-position: bottom;
         background-size: cover;
         width: 100vw;
+        }
     }
-    
-}
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) and (min-width: 360px){
     html {
-        width: 820px;
+        width:100vw;
     }
     body {
-        width: 820px;
+        width: 100vw;
     }
     header {
-        width: 820px;
+        width: 100vw;
     }
     nav {
-        width: 820px;
+        width: 100vw;
     }
     .container_top {
-        width: 820px;
+        width: 100vw;
     }
     .scrollh {
-        width: 820px;
+        width: 100vw;
     }
     .container {
-        width: 820px;
+        width: 100vw;
     }
     .aboutside {
-        width: 820px;
+        width: 100vw;
     }
     .col-xs-8.col-md-10 {
-        width: 766px;
-        padding-left: 20px;
+        width: 95vw;
+        padding-right: 30px;
     }
     .col-xs-8.col-md-4 {
-        height: 200px;
-        
+        height: 40vh;
+        width: 80vw;
     }
     .row {
-        width: 815px;
+        width: 95vw;
     }
     .col-xs-5.col-md-2 {
-        width: 170px;
+        /*width: 30vw;*/
+        padding-right: 0;
+        padding-left: 10px;
+        
     }
     .download {
-        width: 840px;
-        padding-left: 20px;
-        padding-bottom: 20px;
+        width: 90vw;
+        padding-left: 10px;
+        padding-bottom: 30px;
     }
     section#portfolio {
-        width: 820px;
+        width: 100vw;
     }
     .form-control {
-        width: 600px;
+        width: 70vw;
         padding-right: 20px;
         padding-left: 20px;
     }
+    .form-group {
+        width: 70vw;
+    }
     #about.container {
-        width: 820px;
+        width: 100vw;
     }
     #contact.jumbotron{
-        width: 820px;
+        width: 100vw;
     }
     #home.jumbotron{
-        width: 820px;
-    }
-    #contact.jumbotron {
-        padding: 0;
+        width: 100vw;
     }
     #main-navbar.navbar-collapse {
-        width: 800px;
-        padding-right: 10;
+        width: 100vw;
+        padding-right: 10px;
     }
     .foot {
         margin-top: 2%;
@@ -175,13 +160,33 @@ nav {
     #scroll-button.navbar-toggle.collapsed {
         background-color: #bd8f8f;
     }
-
+    #about h1 {
+        width: 100vw;
+    }
+    .row.contact {
+        width: 70vw;
+    }
+    .row.foot {
+        width: 80vw;
+    }
+    p.inline-block {
+        width: 90vw;
+        
+    }
+    .navbar-header {
+        width: 100vw;
+    }
+    .tech-list {
+        padding-left: 10px;
+        width: 30vw;
+    }
+   
 }
 
 
 .aboutside {
     width: 100vw;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
     
 .jumbotron {
@@ -222,7 +227,7 @@ nav {
 }
 
 .download {
-    height: 60px;
+    height: 90px;
 }
 
 @media screen and (max-width: 650px) {
@@ -230,7 +235,7 @@ nav {
         padding-bottom: 30px;
     }
     .container-nav {
-        width: 340px;
+        width: 100vw;
     }
 }
 
@@ -287,8 +292,9 @@ h1 {
 }
 
 .row {
+    width: 90vw;
     margin-right: -15px;
-    margin-left: -15px;
+    /*margin-left: -15px;*/
     padding-right: 15px;
 }
 
@@ -301,14 +307,14 @@ h1 {
     }
 }
 
-@media screen and (max-width: 414px) {
-    .navbar-header {
-        width: 722px;
-    }
-    #main-navbar.navbar-collapse{
-        width: 750px;
-    }
-}
+/*@media screen and (max-width: 414px) {*/
+/*    .navbar-header {*/
+/*        width: 722px;*/
+/*    }*/
+/*    #main-navbar.navbar-collapse{*/
+/*        width: 750px;*/
+/*    }*/
+/*}*/
 
 
 
@@ -353,7 +359,7 @@ h1 {
 }
 
 #about h1 {
-    width: 798px;
+    width: 90vw;
     padding-left: 10px;
     padding-right: 30px;
     
@@ -371,3 +377,7 @@ h1 {
     margin-right: 15px; 
 }
 }
+
+/*.col-xs-8 {*/
+/*    width: 85.66666667%;*/
+/*}*/
